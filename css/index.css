@@ -1,1 +1,30 @@
-/* CSS Code, den es für die Start Page braucht */
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+  width: 50px;
+}
+
+body {
+  background-image: url("images/italia.jpg");
+}
